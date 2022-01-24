@@ -40,12 +40,12 @@ Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 
 </p>
 
-<p align="center"><b>
+<p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg" />
-</b></p>
+</p>
 <br />
 <p align="center" style="bold">
-  Rys. 1 – Krzywa ROC modelu regresji logistycznej
+  <b>Rys. 1 – Krzywa ROC modelu regresji logistycznej</b>
 </p>
 
 Współczynnik AUC wyniósł 0.771, co oznacza, że model będzie w stanie w większości przewidzieć czy komentarz jest pozytywny, czy negatywny (w ok. 77% przypadków). Patrząc na Rysunek 1, można zauważyć, że model trochę gorzej radzi sobie z oceną komentarzy pozytywnych, niż negatywnych (więcej komentarzy ocenionych fałszywie pozytywnie).<br />
