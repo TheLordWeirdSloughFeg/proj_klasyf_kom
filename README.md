@@ -31,16 +31,12 @@ Tak przygotowany model dwuklasowej regresji logistycznej został wytrenowany, a 
 ## 5. Ewaluacja
 Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 
-
+| Parametr | Wartość |
+| ----------- | ----------- |
 | Accuracy | 0.726 |
 | Precision |  0.690 |
 | Recall | 0.819 |
 | F1 Score | 0.749 |
-
-* Accuracy - 
-* Precision -
-*  - 	
-*  - 
 
 ![Rys. 1 – Krzywa ROC modelu regresji logistycznej](https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg)
 Rys. 1 – Krzywa ROC modelu regresji logistycznej
