@@ -30,19 +30,21 @@ Tak przygotowany model dwuklasowej regresji logistycznej został wytrenowany, a 
 ## 5. Ewaluacja
 Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 <p align="center">
+  
 | Parametr | Wartość |
 | ----------- | ----------- |
 | Accuracy | 0.726 |
 | Precision |  0.690 |
 | Recall | 0.819 |
 | F1 Score | 0.749 |
+
 </p>
 
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg" />
 </p>
 <br />
-Rys. 1 – Krzywa ROC modelu regresji logistycznej
+<p align="center">**Rys. 1 – Krzywa ROC modelu regresji logistycznej**</p>
 
 Współczynnik AUC wyniósł 0.771, co oznacza, że model będzie w stanie w większości przewidzieć czy komentarz jest pozytywny, czy negatywny (w ok. 77% przypadków). Patrząc na Rysunek 1, można zauważyć, że model trochę gorzej radzi sobie z oceną komentarzy pozytywnych, niż negatywnych (więcej komentarzy ocenionych fałszywie pozytywnie).<br />
 Z perspektywy firmy, najbardziej chcieliby się pozbyć przedmiotów, które nie zadowalają klientów, gdyż takie przedmioty mogą wpłynąć na negatywny odbiór firmy. Na lepszy wynik mógłby wpłynąć większy, bardziej zróżnicowany zestaw danych, jednak firma zapewniła, że przekaże więcej danych po obiecujących rezultatach na obecnym zbiorze danych.
