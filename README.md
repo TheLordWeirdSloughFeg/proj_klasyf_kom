@@ -46,7 +46,7 @@ Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 </p>
 <br />
 <div align="center">
-<b>Rys. 1 – Krzywa ROC modelu regresji logistycznej</b>
+<b><h3>Rys. 1 – Krzywa ROC modelu regresji logistycznej</h3></b>
 </div>
 
 
