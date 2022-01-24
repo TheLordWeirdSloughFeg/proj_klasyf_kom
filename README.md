@@ -1,6 +1,6 @@
 # proj_klasyf_kom
 Klasyfikacja komentarzy internetowych dla sklepu Amazon
-[Amazon] (https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/Sentiment%20Analysis%20of%20Amazon%20Reviews.jpg)
+![Amazon] (https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/Sentiment%20Analysis%20of%20Amazon%20Reviews.jpg)
 Projekt w MS Azure
 
 
@@ -37,7 +37,7 @@ Recall
 0.749
 Tab. 1 – Współczynniki modelu regresji logistycznej
 
-[Rys. 1 – Krzywa ROC modelu regresji logistycznej](https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg)
+![Rys. 1 – Krzywa ROC modelu regresji logistycznej](https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg)
 Rys. 1 – Krzywa ROC modelu regresji logistycznej
 Współczynnik AUC wyniósł 0.771, co oznacza, że model będzie w stanie w większości przewidzieć czy komentarz jest pozytywny, czy negatywny (w ok. 77% przypadków). Patrząc na Rysunek 1, można zauważyć, że model trochę gorzej radzi sobie z oceną komentarzy pozytywnych, niż negatywnych (więcej komentarzy ocenionych fałszywie pozytywnie).
 Z perspektywy firmy, najbardziej chcieliby się pozbyć przedmiotów, które nie zadowalają klientów, gdyż takie przedmioty mogą wpłynąć na negatywny odbiór firmy. Na lepszy wynik mógłby wpłynąć większy, bardziej zróżnicowany zestaw danych, jednak firma zapewniła, że przekaże więcej danych po obiecujących rezultatach na obecnym zbiorze danych.
