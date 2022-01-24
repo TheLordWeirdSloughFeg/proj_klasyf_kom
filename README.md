@@ -40,9 +40,9 @@ Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 
 </p>
 
-<p align="center">
+<p align="center"><b>
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg" />
-</p>
+</b></p>
 <br />
 <p align="center" style="bold">
   Rys. 1 – Krzywa ROC modelu regresji logistycznej
