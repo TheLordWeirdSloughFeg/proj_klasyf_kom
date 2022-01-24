@@ -31,6 +31,12 @@ Tak przygotowany model dwuklasowej regresji logistycznej został wytrenowany, a 
 ## 5. Ewaluacja
 Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 * Accuracy - 0.726
 * Precision - 0.690
 * Recall - 0.819	
