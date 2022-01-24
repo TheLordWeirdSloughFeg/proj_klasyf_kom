@@ -10,6 +10,7 @@ Projekt w MS Azure
 
 ## 1. Zrozumienie uwarunkowań biznesowych
 Firma Amazon posiada największy na świecie sklep internetowy. Co roku baza produktów się rozrasta, a co za tym idzie, stanowi wyzwanie dla osób zarządzających katalogiem produktów. W trosce o utrzymanie jakości co do zamieszczanych produktów Amazon potrzebuje analizy komentarzy użytkowników, aby dopasować swoją ofertę do wymagań klientów.
+
 Plan to wdrożenie odpowiednich metod uczenia maszynowego na platformie MS Azure, w celu weryfikacji komentarzy użytkowników i podzielenie ich na dwie klasy: komentarze pozytywne oraz negatywne.
 
 ## 2. Zrozumienie danych 
@@ -40,5 +41,5 @@ Rys. 1 – Krzywa ROC modelu regresji logistycznej
 Współczynnik AUC wyniósł 0.771, co oznacza, że model będzie w stanie w większości przewidzieć czy komentarz jest pozytywny, czy negatywny (w ok. 77% przypadków). Patrząc na Rysunek 1, można zauważyć, że model trochę gorzej radzi sobie z oceną komentarzy pozytywnych, niż negatywnych (więcej komentarzy ocenionych fałszywie pozytywnie).
 Z perspektywy firmy, najbardziej chcieliby się pozbyć przedmiotów, które nie zadowalają klientów, gdyż takie przedmioty mogą wpłynąć na negatywny odbiór firmy. Na lepszy wynik mógłby wpłynąć większy, bardziej zróżnicowany zestaw danych, jednak firma zapewniła, że przekaże więcej danych po obiecujących rezultatach na obecnym zbiorze danych.
 
-6. Wdrożenie
+## 6. Wdrożenie
 Model na podstawie regresji logistycznej, oceniający komentarzy na podstawie analizy języka naturalnego (NLP) został przetestowany i działa poprawnie. W kolejnym kroku, przed jego implementacją, należy sprawdzić jak radzi sobie z dużymi zbiorami danych, gdyż w takich warunkach musi funkcjonować. Na koniec można go włączyć w strukturę serwisu Amazon. Taka analiza komentarzy klientów pozwoli firmie Amazon prześledzić również trendy zakupowe i dostosować swój katalog produktów do potrzeb użytkowników sklepu. Z czasem warto byłoby zmodyfikować model tak, aby rozróżniał także komentarze neutralne, a także połączyć go z innymi algorytmami, np. algorytmami pozycjonującymi przedmioty, prezentując najbardziej korzystne i atrakcyjne oferty.
