@@ -2,7 +2,7 @@
 Klasyfikacja komentarzy internetowych dla sklepu Amazon
 <div align="center"><img src="https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/Sentiment%20Analysis%20of%20Amazon%20Reviews.jpg" /></div>
 
-Projekt w MS Azure
+**Projekt w MS Azure**
 
 
 [Link do eksperymentu](https://gallery.cortanaintelligence.com/Experiment/Klasyfikacja-komentarzy-internetowych-dla-sklepu-Amazon)
