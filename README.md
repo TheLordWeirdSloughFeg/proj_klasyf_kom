@@ -1,6 +1,6 @@
 # proj_klasyf_kom
 Klasyfikacja komentarzy internetowych dla sklepu Amazon
-![Amazon] (https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/Sentiment%20Analysis%20of%20Amazon%20Reviews.jpg)
+![Amazon](https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/Sentiment%20Analysis%20of%20Amazon%20Reviews.jpg)
 Projekt w MS Azure
 
 
