@@ -46,8 +46,11 @@ Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 </p>
 <br />
 <p align="center">
-<h3>Rys. 1 – Krzywa ROC modelu regresji logistycznej</h3>
+<b>Rys. 1 – Krzywa ROC modelu regresji logistycznej</b>
 </p>
+
+<center> <h1>heading 1</h1> </center>
+
 
 Współczynnik AUC wyniósł 0.771, co oznacza, że model będzie w stanie w większości przewidzieć czy komentarz jest pozytywny, czy negatywny (w ok. 77% przypadków). Patrząc na Rysunek 1, można zauważyć, że model trochę gorzej radzi sobie z oceną komentarzy pozytywnych, niż negatywnych (więcej komentarzy ocenionych fałszywie pozytywnie).<br />
 Z perspektywy firmy, najbardziej chcieliby się pozbyć przedmiotów, które nie zadowalają klientów, gdyż takie przedmioty mogą wpłynąć na negatywny odbiór firmy. Na lepszy wynik mógłby wpłynąć większy, bardziej zróżnicowany zestaw danych, jednak firma zapewniła, że przekaże więcej danych po obiecujących rezultatach na obecnym zbiorze danych.
