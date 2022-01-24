@@ -33,7 +33,7 @@ Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 <div align="center">
   
 | Parametr | Wartość |
-| ============ | ============ |
+| ----------- | ------------ |
 | Accuracy | 0.726 |
 | Precision |  0.690 |
 | Recall | 0.819 |
