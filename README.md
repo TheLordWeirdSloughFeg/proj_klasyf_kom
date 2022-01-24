@@ -15,7 +15,8 @@ Plan to wdrożenie odpowiednich metod uczenia maszynowego na platformie MS Azure
 
 ## 2. Zrozumienie danych 
 Mój zleceniodawca – firma Amazon posiada stale rozrastającą się bazę klientów, którzy oceniają swoje zakupy w sklepie. Około 3-5% osób zostawia komentarz – recenzję produktu na stronie. Mimo niewielkiego odsetku recenzujących, co godzinę sklep sprzedaje około 700.000 przedmiotów. Z uwagi na to i na rosnące zainteresowanie klientów ilość wystawianych komentarzy ograniczono do maksymalnie 5 komentarzy tygodniowo, aby zaoszczędzić pamięć serwerową.
-Pracownicy Amazona dostarczyli mi komentarzy ocenionych i zweryfikowanych jako 500 pozytywne oraz 500 komentarzy ocenionych jako negatywne. Wybrane komentarze do potrzeb badań zostały losowo wybrane z ogromnej puli recenzji użytkowników.
+
+Pracownicy Amazona dostarczyli mi komentarzy ocenionych i zweryfikowanych jako 500 pozytywne oraz 500 komentarzy ocenionych jako negatywne. Wybrane komentarze do potrzeb badań zostały losowo wybrane z ogromnej puli recenzji użytkowników.<br />
 Dane składają się z komentarza (dane tekstowe) oraz określenia czy komentarz jest pozytywny (1) czy negatywny (0). Zamiarem firmy jest znalezienie i oznaczanie komentarzy w taki sposób, bez puli recenzji neutralnych.
 
 ## 3. Przygotowanie danych 
@@ -39,7 +40,9 @@ Otrzymane współczynniki oraz krzywą ROC umieściłem poniżej.
 | F1 Score | 0.749 |
 
 ![Rys. 1 – Krzywa ROC modelu regresji logistycznej](https://github.com/TheLordWeirdSloughFeg/proj_klasyf_kom/blob/main/roc_azure.jpg?style=centerme)
+
 Rys. 1 – Krzywa ROC modelu regresji logistycznej
+
 Współczynnik AUC wyniósł 0.771, co oznacza, że model będzie w stanie w większości przewidzieć czy komentarz jest pozytywny, czy negatywny (w ok. 77% przypadków). Patrząc na Rysunek 1, można zauważyć, że model trochę gorzej radzi sobie z oceną komentarzy pozytywnych, niż negatywnych (więcej komentarzy ocenionych fałszywie pozytywnie).
 Z perspektywy firmy, najbardziej chcieliby się pozbyć przedmiotów, które nie zadowalają klientów, gdyż takie przedmioty mogą wpłynąć na negatywny odbiór firmy. Na lepszy wynik mógłby wpłynąć większy, bardziej zróżnicowany zestaw danych, jednak firma zapewniła, że przekaże więcej danych po obiecujących rezultatach na obecnym zbiorze danych.
 
